@@ -1,0 +1,28 @@
+main {
+    background-color: red;
+    width: 30vw;
+    height: 20vh;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+div {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: red;
+}
+
+main>div:first-child>h1 {
+    text-align: center;
+}
+
+div:first-child {
+    display: block;
+    padding: 10% 10% 20% 10%;
+}
+
+button {
+    display: float;
+    width: 33.33%;
+}
